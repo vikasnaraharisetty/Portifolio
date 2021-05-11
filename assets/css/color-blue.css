@@ -59,6 +59,7 @@ body {
     border-color: #c6c6c6;
     background-color: #ffffff;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 
@@ -186,8 +187,11 @@ a.icons-menu-button:focus,
 /* ------------------
     Portfolio
 --------------------*/
-.portfolio .within {
-    border: 1px solid rgba(149, 149, 149, 0.1);
+.portfolio .filter_div {
+    padding: 0px 30px;
+}
+.portfolio #portfolio-grid{
+    padding: 10px 30px;
 }
 .portfolio li {
     color: #000000;
@@ -203,10 +207,10 @@ a.icons-menu-button:focus,
     background-color: #00b6f9;
 }
 .portfolio-item .port-item-cont {
-    background: rgba(0, 182, 249, 0.90);
+    background: rgba(73, 73, 73, 0.8);
 }
 .portfolio-item:hover .within, .portfolio-item .within.touch {
-    border-color: #008cd6;
+    border-color: #ccc;
 }
 .portfolio-item .title{
     color: #fff;
@@ -217,11 +221,12 @@ a.icons-menu-button:focus,
 .portfolio-item a.view-work {
     background-color: #ffffff;
     color: #000000;
-    border-color: #008cd6;
+    border-color: #fff;
 }
 .portfolio-item a.view-work:hover{
     background-color: #008cd6;
     color: #ffffff;
+    border-color: #008cd6;
 }
 
 .podrt-desc {
